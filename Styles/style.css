@@ -32,6 +32,7 @@ header .logo{
     font-weight: 900;
     font-style: normal;
     color: #4E47FF;
+    font-size: 34px;
 }
 header .btn{
     background-color: #4E47FF;
@@ -59,4 +60,8 @@ header .navbar2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+#stay{
+    height: 48px;
+    width: 174px;
 }
