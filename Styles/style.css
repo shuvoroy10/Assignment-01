@@ -96,3 +96,33 @@ main .card1{
     width: 229px;
     margin: 10px 0;
 }
+
+/* user section */
+.users-section{
+    width: 1140px;
+    height: 308px;
+    margin: 0 auto;
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 30px;
+}
+.users-h1{
+    color: #252432;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 800;
+}
+.point{
+    display: flex;
+    justify-content: space-around;
+}
+.font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #4E47FF;
+    font-size: 80px;
+}
+.p-font{
+    font-size: 20px;
+}
