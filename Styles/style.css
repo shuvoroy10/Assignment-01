@@ -211,3 +211,61 @@ main .card1{
     width: 195px;
     height: 48px;
 }
+/* form */
+.form{
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 632px;
+}
+.form-title{
+    width: 528px;
+    height: 232px;
+}
+.form-h1{
+    font-size: 97px;
+    color: #000000;
+}
+main div label{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+main div input[type="email"],input[type="text"] {
+      width: 477px;
+      height: 70px;
+      border-radius: 7px;
+      border: 1px solid #D6DDED;
+      font-size: 20px;
+      padding-left: 20px;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: rgba(0, 0, 0, 0.5);
+    }
+main div textarea{
+    width: 477px;
+    height: 105px;
+    border-radius: 5px;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+.form-btn{
+    width: 497px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
