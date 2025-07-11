@@ -27,7 +27,6 @@ header .herobar{
 }
 
 header .logo{
-    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -42,6 +41,16 @@ header .logo{
     border-radius: 10px;
     font-size: 16px;
     color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    border-top: 3px solid #4E47FF;
+    border-radius: 0;
+    border-bottom: 3px solid #4E47FF;
+    background-color: rgba(73, 68, 68, 0.123);
+    color: black;
+    transition: 0.3s;
+    font-weight: 600;
 }
 header .navbar2{
     display: flex;
@@ -192,6 +201,7 @@ main .card1{
     background-color: #FFFFFF;
     margin-top: 100px;
     border-radius: 15px;
+    border: 2px solid rgba(206, 201, 201, 0.18) ;
 }
 .con-title{
     padding: 60px 0px 15px 0px;
