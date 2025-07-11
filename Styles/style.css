@@ -269,3 +269,31 @@ main div textarea{
     color: #FFFFFF;
     font-weight: 700;
 }
+/* footer */
+footer{
+    height: 428px;
+}
+footer .info{
+    width: 531px;
+    height: 177px;
+    margin: 0 auto;
+}
+.foot-h1{
+    
+    font-size: 100px;
+    text-align: center;
+}
+.foot-p1{
+    color: #8987A1;
+    text-align: center;
+    margin: -10px 0px 40px 0px;
+}
+footer div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
