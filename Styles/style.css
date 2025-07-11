@@ -34,7 +34,7 @@ header .logo{
     color: #4E47FF;
     font-size: 34px;
 }
-header .btn{
+.btn{
     background-color: #4E47FF;
     width: 132px;
     height: 48px;
@@ -64,4 +64,35 @@ header .navbar2{
 #stay{
     height: 48px;
     width: 174px;
+}
+/* first section */
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px auto;
+    width: 1140px;
+    align-items: center;
+}
+main div img{
+    width: 403px;
+    height: 328px;
+    border-radius: 32px;
+}
+main div h1{
+    margin: 10px 0;
+    font-size: 42px;
+    font-weight: 800;
+    color: #252432;
+}
+main div p{
+    margin: 10px 0;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+main .card1{
+    width: 517px;
+}
+#btn3{
+    width: 229px;
+    margin: 10px 0;
 }
