@@ -66,10 +66,14 @@ header .navbar2{
     width: 174px;
 }
 /* first section */
+main{
+    background-color: #f5f8ff;
+}
 .section{
+    padding-top: 120px;
     display: flex;
     justify-content: space-between;
-    margin: 116px auto;
+    margin: 0px auto;
     width: 1140px;
     align-items: center;
 }
@@ -125,4 +129,56 @@ main .card1{
 }
 .p-font{
     font-size: 20px;
+}
+ /* review section */
+ .review-h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #252432;
+    margin-top: 137px;
+    margin-bottom: 50px;
+}
+.review-section{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 30px;
+}
+.star-section{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(206, 201, 201, 0.18);
+    border-radius: 15px;
+    padding: 30px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.review-h3{
+    color: #1E1E1E;
+    font-size: 25px;
+}
+.review-p{
+    color: #1E1E1E;
+    font-size: 16px;
+}
+.icon-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icon-img{
+    width: 40px;
+    height: 40px;
+}
+
+.name{
+    color: #757575;
+    font-size: 14px;
+}
+.date{
+    color: #B3B3B3;
+    font-size: 14px;
 }
